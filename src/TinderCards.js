@@ -22,8 +22,9 @@ function TinderCards() {
     },[]);
 
     return (
-        <div>
+            
             <div className="Cardcontainer">
+            <p className="para">Drag the cards to left or right</p>
             {people.map(person =>(
                 <TinderCard className="swip" key ={person.name} preventSwipe={['up','down']} > 
                     <div className="card" 
@@ -33,7 +34,6 @@ function TinderCards() {
                 </TinderCard>
             ))}
             </div>
-        </div>
     )
 }
 

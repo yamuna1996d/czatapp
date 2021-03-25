@@ -12,7 +12,13 @@
 }
 .Cardcontainer{
     display:flex ;
+    margin-top: 5vh;
     justify-content: center;
+}
+.para{
+    margin: 0;
+    align-items: center;
+   
 }
 .card>h3{
     font-family: 'Satisfy', cursive;
